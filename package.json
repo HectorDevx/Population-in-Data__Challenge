@@ -1,5 +1,5 @@
 {
-  "name": "population-in-data__challenge",
+  "name": "world-rabbits__challenge",
   "version": "1.0.0",
   "description": "Aplicación de visualización de datos de la población mundial. Construida en React.",
   "main": "index.js",
