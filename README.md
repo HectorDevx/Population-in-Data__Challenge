@@ -1,4 +1,4 @@
-# World Rabbits\_\_Challenge
+# World in Rabbits\_\_Challenge
 
 World population data visualization application. Built in React.
 

@@ -1,5 +1,5 @@
 {
-  "name": "world-rabbits__challenge",
+  "name": "world-in-rabbits__challenge",
   "version": "1.0.0",
   "description": "Aplicación de visualización de datos de la población mundial. Construida en React.",
   "main": "index.js",
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/HectorDevx/Population-in-Data__Challenge#readme",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
