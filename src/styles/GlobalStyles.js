@@ -2,6 +2,19 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../fonts/cocogoose.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/cocogoose.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cocogoose.otf") format("opentype"),
+    url("../fonts/cocogoose.svg") format("svg"),
+    url("../fonts/cocogoose.ttf") format("truetype"),
+    url("../fonts/cocogoose.woff") format("woff"),
+    url("../fonts/cocogoose.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --color-white: #FBFCFF;
   --color-light-green: #B2EECE;
@@ -12,6 +25,8 @@ export const GlobalStyles = createGlobalStyle`
   --color-blue: #004295;
   --color-dark-blue: #004260;
   --color-gray: #2A3A54;
+
+  --font-primary: "Cocogoose", sans-serif;
 }
 
 * {
@@ -26,6 +41,7 @@ body {
 }
 
 h3 {
+  font-family: var(--font-primary);
   color: var(--color-blue);
 }
 `;
