@@ -27,6 +27,13 @@ export const GlobalStyles = createGlobalStyle`
   --color-gray: #2A3A54;
 
   --font-primary: "Cocogoose", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+
+  --space-nano: 8px;
+  --space-mini: 16px;
+  --space-small: 24px;
+  --space-medium: 40px;
+  --space-large: 160px;
 }
 
 * {
@@ -41,7 +48,7 @@ body {
 }
 
 h3 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-blue);
 }
 `;
