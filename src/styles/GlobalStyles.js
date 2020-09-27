@@ -44,11 +44,35 @@ export const GlobalStyles = createGlobalStyle`
 body {
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-mint);
+  background-color: var(--color-light-green);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 92px;
+  color: var(--color-blue);
 }
 
 h3 {
   font-family: var(--font-secondary);
   color: var(--color-blue);
+}
+
+a {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-dark-blue);
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    color: var(--color-white);
+  }
 }
 `;
