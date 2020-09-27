@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.section`
   padding-bottom: var(--space-large);
-  width: 100%;
+  max-width: 100%;
   background-color: var(--color-mint);
 
   div {

@@ -61,6 +61,22 @@ h3 {
   color: var(--color-blue);
 }
 
+h6 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+p {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 a {
   font-family: var(--font-secondary);
   font-style: normal;
