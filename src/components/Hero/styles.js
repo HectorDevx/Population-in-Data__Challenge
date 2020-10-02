@@ -13,11 +13,11 @@ export const HeroContainer = styled.section`
     align-items: center;
 
     h1 {
-      width: 35%;
+      width: 45%;
     }
 
     img {
-      width: 35%;
+      width: 30%;
     }
   }
 `;

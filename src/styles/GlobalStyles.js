@@ -44,6 +44,7 @@ export const GlobalStyles = createGlobalStyle`
 body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   background-color: var(--color-light-green);
 }
 
@@ -57,8 +58,12 @@ h1 {
 }
 
 h3 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 63px;
   color: var(--color-blue);
+  font-style: normal;
 }
 
 h6 {
@@ -74,7 +79,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 26px;
 }
 
 a {
@@ -90,5 +95,9 @@ a {
   &:hover {
     color: var(--color-white);
   }
+}
+
+img {
+  border-radius: var(--space-mini);
 }
 `;

@@ -3,6 +3,8 @@ import { GlobalStyles } from "./styles/GlobalStyles";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Footer } from "./components/Footer";
+import { Intro } from "./components/Intro";
+import { About } from "./components/About";
 
 const App = () => {
   return (
@@ -10,7 +12,8 @@ const App = () => {
       <GlobalStyles />
       <Header />
       <Hero />
-      <h3>Hello World</h3>
+      <Intro />
+      <About />
       <Footer />
     </>
   );

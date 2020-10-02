@@ -1,10 +1,11 @@
 import React from "react";
+import { Btn } from "./styles";
 
-export function Button({ value, link }) {
+export function Button({ text, link }) {
   return (
     <>
       <a href={link}>
-        <button>{value}</button>
+        <Btn>{text}</Btn>
       </a>
     </>
   );
