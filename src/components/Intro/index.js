@@ -15,7 +15,7 @@ export function Intro() {
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <Number />
+        <Number number="10,000" />
         <Button text="View countries" link="#" />
       </div>
       <img src={Hector} alt="Héctor Reyes" />

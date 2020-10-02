@@ -66,6 +66,14 @@ h3 {
   font-style: normal;
 }
 
+h5 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+}
+
 h6 {
   font-family: var(--font-secondary);
   font-style: normal;
