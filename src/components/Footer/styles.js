@@ -18,6 +18,10 @@ export const FooterContainer = styled.footer`
       margin-top: var(--space-small);
       color: var(--color-white);
     }
+
+    @media (max-width: 600px) {
+      width: 90%;
+    }
   }
 `;
 

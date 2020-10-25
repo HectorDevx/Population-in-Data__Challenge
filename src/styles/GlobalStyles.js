@@ -108,4 +108,28 @@ a {
 img {
   border-radius: var(--space-mini);
 }
+
+@media (max-width: 1000px) {
+  h1 {
+  font-size: 54px;
+  line-height: 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  a {
+  font-size: 18px;
+  }
+
+  h1 {
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  }
+
+  h3 {
+  font-size: 34px;
+  line-height: 44px;
+}
+}
 `;

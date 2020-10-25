@@ -5,6 +5,10 @@ export const HeroContainer = styled.section`
   max-width: 100%;
   background-color: var(--color-mint);
 
+  @media (max-width: 600px) {
+    padding-bottom: var(--space-medium);
+  }
+
   div {
     margin: 0 auto;
     width: 70%;
@@ -18,6 +22,20 @@ export const HeroContainer = styled.section`
 
     img {
       width: 30%;
+    }
+
+    @media (max-width: 600px) {
+      padding-top: var(--space-small);
+      width: 90%;
+      flex-direction: column;
+
+      h1 {
+        width: 90%;
+      }
+
+      img {
+        width: 70%;
+      }
     }
   }
 `;

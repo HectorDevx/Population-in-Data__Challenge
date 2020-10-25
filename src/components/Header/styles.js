@@ -19,4 +19,20 @@ export const HeaderContainer = styled.header`
       justify-content: space-around;
     }
   }
+
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      width: 90%;
+    }
+
+    img,
+    div {
+      width: 90%;
+    }
+
+    a {
+      margin: 0 8px;
+    }
+  }
 `;

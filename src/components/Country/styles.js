@@ -6,6 +6,11 @@ export const CountryContainer = styled.div`
   display: flex;
   align-items: center;
 
+  @media (max-width: 600px) {
+    width: 90%;
+    flex-direction: column;
+  }
+
   img {
     width: 40%;
   }
@@ -15,6 +20,10 @@ export const CountryContainer = styled.div`
     h5,
     h6 {
       color: var(--color-blue);
+    }
+
+    @media (max-width: 600px) {
+      padding: var(--space-mini);
     }
   }
 `;
