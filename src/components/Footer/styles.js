@@ -10,6 +10,10 @@ export const FooterContainer = styled.footer`
     margin: 0 auto;
     width: 70%;
 
+    img {
+      border-radius: 0;
+    }
+
     p {
       margin-top: var(--space-small);
       color: var(--color-white);
