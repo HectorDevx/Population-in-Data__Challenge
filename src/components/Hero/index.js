@@ -1,5 +1,5 @@
 import React from "react";
-import Planet from "../../assets/earth.png";
+import logo from "../../assets/favicon.png";
 import { HeroContainer } from "./styles";
 
 export function Hero() {
@@ -11,7 +11,7 @@ export function Hero() {
           explained
           <br /> with rabbits
         </h1>
-        <img src={Planet} alt="Planet Image" />
+        <img src={logo} alt="Planet Image" />
       </div>
     </HeroContainer>
   );

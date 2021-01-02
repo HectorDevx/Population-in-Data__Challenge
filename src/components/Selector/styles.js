@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const SelectorContainer = styled.div`
-  display: inline;
-  min-width: 40%;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 
   @media (max-width: 800px) {
     min-width: 90%;

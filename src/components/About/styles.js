@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.section`
   margin: 80px auto;
-  width: 70%;
+  width: 60%;
   display: flex;
   align-items: center;
 

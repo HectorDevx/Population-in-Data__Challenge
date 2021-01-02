@@ -11,13 +11,14 @@ export const HeroContainer = styled.section`
 
   div {
     margin: 0 auto;
-    width: 70%;
+    padding-top: var(--space-medium);
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     h1 {
-      width: 45%;
+      width: 50%;
     }
 
     img {

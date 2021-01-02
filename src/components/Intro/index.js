@@ -2,7 +2,7 @@ import React from "react";
 import { Title } from "../Title";
 import { Button } from "../Button";
 import { Number } from "../Number";
-import Hector from "../../assets/hector_reyes.jpg";
+import World from "../../assets/world.png";
 import { AboutContainer } from "../About/styles";
 
 export function Intro() {
@@ -18,7 +18,7 @@ export function Intro() {
         <Number number="10,000" />
         <Button text="View countries" link="#" />
       </div>
-      <img src={Hector} alt="Héctor Reyes" />
+      <img src={World} alt="World in Rabbits" />
     </AboutContainer>
   );
 }

@@ -12,11 +12,18 @@ export const CountryContainer = styled.div`
   }
 
   img {
-    width: 40%;
+    max-width: 10%;
+  }
+
+  .Country__image {
+    margin: 0 auto;
+    max-width: 50%;
   }
 
   .CountryContainer--info {
     padding: var(--space-medium);
+    width: 50%;
+
     h5,
     h6 {
       color: var(--color-blue);

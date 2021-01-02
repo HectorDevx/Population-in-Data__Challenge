@@ -4,13 +4,12 @@ export const GlobalStyles = createGlobalStyle`
 
 @font-face {
   font-family: "Cocogoose";
-  src: url("../fonts/cocogoose.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/cocogoose.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/cocogoose.otf") format("opentype"),
-    url("../fonts/cocogoose.svg") format("svg"),
-    url("../fonts/cocogoose.ttf") format("truetype"),
-    url("../fonts/cocogoose.woff") format("woff"),
-    url("../fonts/cocogoose.woff2") format("woff2"); /* Modern Browsers */
+  src: local("../fonts/cocogoose.eot"); /* IE9 Compat Modes */
+  src: local("../fonts/cocogoose.otf") format("embedded-opentype"),
+    local("../fonts/cocogoose.svg") format("svg"),
+    local("../fonts/cocogoose.ttf") format("truetype"),
+    local("../fonts/cocogoose.woff") format("woff"),
+    local("../fonts/cocogoose.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }

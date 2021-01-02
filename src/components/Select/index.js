@@ -6,11 +6,11 @@ export function Select() {
     <SelectContainer>
       <input list="countries" name="country" placeholder="Select Country" />
       <datalist id="countries">
-        <option value="PHP" />
-        <option value=".NET" />
-        <option value="PYTHON" />
-        <option value="C" />
-        <option value="ABAP" />
+        <option value="México" />
+        <option value="Canada" />
+        <option value="España" />
+        <option value="China" />
+        <option value="Japón" />
       </datalist>
     </SelectContainer>
   );
