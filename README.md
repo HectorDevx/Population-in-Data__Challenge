@@ -2,6 +2,9 @@
 
 World population data visualization application. Built in React.
 
+### Deploy
+[Launch!](https://hectordevx.github.io/world-in-rabbits__challenge/)
+
 ## Project Links 🔗
 
 - [Notion](https://www.notion.so/hectordevx/Reto-Poblaci-n-Mundial-116c56dea821471c9508ad14cc6b0293) - Documentation
